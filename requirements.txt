@@ -1,0 +1,9 @@
+flask
+pandas
+requests
+lxml
+html5lib
+numpy
+scikit-learn
+xgboost
+joblib
