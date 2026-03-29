@@ -43,8 +43,10 @@ COOLDOWN = 1200
 # =============================
 # TELEGRAM
 # =============================
-BOT_TOKEN = "8782252049:AAGX-gpIzOSY-8B69YqBE1nuu-ZD6D1VnzE"
-CHAT_ID = "1632432258"
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 def send_telegram(msg):
     try:
