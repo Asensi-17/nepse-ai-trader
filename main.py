@@ -332,6 +332,7 @@ def home():
 # =============================
 # ROUTES
 # =============================
+
 @app.route('/test_telegram')
 def test_telegram():
     send_telegram("✅ TEST MESSAGE: Telegram is working!")
