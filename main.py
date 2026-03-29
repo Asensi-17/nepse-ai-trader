@@ -343,6 +343,11 @@ def performance():
         "curve": equity_curve
     })   
 
+@app.route('/test_telegram')
+def test_telegram():
+    send_telegram("✅ TEST MESSAGE: Telegram is working!")
+    return "Test sent!"
+
 # =============================
 # LOOP
 # =============================
