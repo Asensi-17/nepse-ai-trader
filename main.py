@@ -332,11 +332,6 @@ def home():
 # =============================
 # ROUTES
 # =============================
-@app.route('/test_telegram')
-def test_telegram():
-    send_telegram("✅ TEST MESSAGE: Telegram is working!")
-    return "Test sent!"
-    
 @app.route('/scan')
 def scan():
     return jsonify(scan_logic())
